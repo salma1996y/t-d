@@ -1,0 +1,107 @@
+
+*{ 
+    box-sizing: border-box; /*اتوقع يخليه مايشطح برا البوكس ويخليه يطبق كل قوانين html هنا ب css */ 
+  }
+  body{
+    background-image: url("https://images.unsplash.com/photo-1510832198440-a52376950479?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+    background-color: #cccccc;
+  /*   background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   
+  .container{ 
+    
+   /*المسافه بين النص والاشاء الثانيه الي حوله*/
+     border: 47% ;
+     /*زي الاطار*/
+    position: relative;/*اتوقع يخلي الويدث والهاي يشتغلون بمحيط البوكس ولا يشطحون */
+    width:400px;
+    height:100px;
+      opacity: 0.72;
+    padding-top:14%;
+  /*     margin: 200px aotu; */
+      margin-left: 350px;
+      margin-top: 175px;
+  
+  
+  }
+  #back {
+    position: absolute;/*اتوق يخلي النصوص عادي يتداخن مع بعض*/
+  /*   background: #263238; */
+    width:100%;
+    height:100%;
+    text-align:center; /*تخلي النص بالوسط*/
+  /*   padding-top:2%;/*المسافه بين النص والي فوقه يعني ينزل النص تحت*/ */
+    color:#FFF9C4;
+  }
+  a {
+      font-size:1.5rem;
+    color : #FFF9C4;
+    text-decoration:none; /*الخط الي تحت الرابط*/
+    margin-right:6px; /*المسافه بين الينك والينك الثاني*/
+    margin-left:6px;
+  }
+  h2{
+    font-size: 2rem; /*حجم النص*/
+  font-style: oblique;
+    margin:-10px;
+    padding-top:10%;
+      color : #FFF9C4;
+  }
+  .top{
+      
+    position: absolute;
+    background: #757575;
+    width:50%;
+    height:auto;
+    color:#424242;
+  }
+  #right{
+      border-radius: 50px 0px 0px 30px;
+      
+  }
+  #left {
+    right:0;
+     direction:rtl ; /*يخليه من اليمين لليسار */
+      border-radius: 0px 50px 30px 0px;
+  
+  
+  }
+  h1 {
+   
+    font-size:3rem;
+    font: italic bold 39px/80px Georgia, serif;
+    
+    padding:10px 10px; /*مسافه بين البدي و الاطار يعني النص وكاني محدده ابي انسخه */ 
+    margin:20px ;
+    text-shadow: 2px 2px #E8F5E9 ;
+  
+  }
+  h3 {
+   
+    font-size:3rem;
+    font: italic bold 39px/80px Georgia, serif;
+    
+    padding:10px 10px; /*مسافه بين البدي و الاطار يعني النص وكاني محدده ابي انسخه */ 
+    margin:20px 43px;
+    text-shadow: 2px 2px #E8F5E9 ;
+  
+  }
+  
+  .moveLeft {
+    transform: translateY(-100%);
+     transition-duration: 1s;
+  
+  }
+  
+  .moveRight {
+    transform: translateY(100%);
+     transition-duration: 1s;
+  
+  }
+  
+  
+  
+  
+  
